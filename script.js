@@ -5,21 +5,14 @@ const participantIcon = document.querySelector('.fa-user-friends');
 const closeBtn = document.querySelector('.close-btn');
 let isSidebarOpen = true;
 const participants = [
-    { name: "Herve Musangwa", image: "https://ui-avatars.com/api/?name=H&background=random&color=fff", status: "Meeting host", muted: false },
-    { name: "Bonaparte Uteramaho", image: "https://ui-avatars.com/api/?name=B&background=random&color=fff", status: "", muted: true },
-    { name: "Eddy Uwambaje", image: "https://ui-avatars.com/api/?name=E&background=random&color=fff", status: "", muted: true },
-    { name: "Divine Birasa", image: "https://ui-avatars.com/api/?name=D&background=random&color=fff", status: "", muted: true },
-    { name: "Lorita Sesame Icyeza", image: "https://ui-avatars.com/api/?name=L&background=random&color=fff", status: "", muted: true },
-    { name: "Didier Nsengiyumva", image: "https://ui-avatars.com/api/?name=D&background=random&color=fff", status: "", muted: true },
-    { name: "Cletus Abugre", image: "https://ui-avatars.com/api/?name=C&background=random&color=fff", status: "", muted: true },
-    { name: "Blair Kayigamba", image: "https://ui-avatars.com/api/?name=B&background=random&color=fff", status: "", muted: true },
-    { name: "Desparvis Gutabarwa", image: "https://ui-avatars.com/api/?name=D&background=random&color=fff", status: "", muted: true },
-    { name: "Emarence Umurerwa", image: "https://ui-avatars.com/api/?name=E&background=random&color=fff", status: "", muted: true },
-    { name: "David Ajao", image: "https://ui-avatars.com/api/?name=D&background=random&color=fff", status: "", muted: true },
-    { name: "Bonaparte Uteramaho", image: "https://ui-avatars.com/api/?name=B&background=random&color=fff", status: "", muted: true },
-    { name: "Desparvis Gutabarwa", image: "https://ui-avatars.com/api/?name=D&background=random&color=fff", status: "", muted: true },
-    { name: "Eddy Uwambaje", image: "https://ui-avatars.com/api/?name=E&background=random&color=fff", status: "", muted: true },
-    { name: "Emarence Umurerwa", image: "https://ui-avatars.com/api/?name=E&background=random&color=fff", status: "", muted: true }
+    { name: "Gaddiel Irakoze", image: "https://ui-avatars.com/api/?name=G&background=random&color=fff", status: "Meeting host", muted: false },
+    { name: "Emmanuel Ngwoke", image: "https://ui-avatars.com/api/?name=E&background=random&color=fff", status: "", muted: true },
+    { name: "Amanda Inema", image: "https://ui-avatars.com/api/?name=A&background=random&color=fff", status: "", muted: true },
+    { name: "Rwema Gisa", image: "https://ui-avatars.com/api/?name=R&background=random&color=fff", status: "", muted: true },
+    { name: "Larissa Iriza", image: "https://ui-avatars.com/api/?name=L&background=random&color=fff", status: "", muted: true },
+    { name: "Tresor Nkurunziza", image: "https://ui-avatars.com/api/?name=T&background=random&color=fff", status: "", muted: true },
+    { name: "Ihuoma Ogbonna", image: "https://ui-avatars.com/api/?name=I&background=random&color=fff", status: "", muted: true },
+    { name: "James Mukunzi", image: "https://ui-avatars.com/api/?name=J&background=random&color=fff", status: "", muted: true }
 ];
 
 
